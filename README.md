@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Scroll-Driven Hero Section Animation**
 
-## Getting Started
+A modern frontend animation project that demonstrates a premium hero section with smooth scroll-based motion and interactive effects. The project focuses on motion quality, performance, and clean UI behavior using scroll-linked animations and subtle user interactions.
 
-First, run the development server:
+This project was built as part of a frontend assignment to showcase understanding of animations, scroll interactions, and polished UI design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 https://your-project.vercel.app  
+🔗 https://github.com/pooja-tour/car-scroll-animation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🎯Project Objective
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The goal of this project is to recreate a high-quality hero section animation inspired by a reference demo, with emphasis on:
 
-## Learn More
+- Smooth intro animations
+- Scroll-driven motion (scroll-linked, not autoplay)
+- Interactive user experience
+- Clean, premium UI design
+- Performance-friendly animations
 
-To learn more about Next.js, take a look at the following resources:
+✨Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Smooth headline and stats animation on initial page load  
+- Scroll-driven hero image movement using GSAP ScrollTrigger  
+- Interactive mouse tilt effect on the hero visual  
+- Dynamic light sweep effect that follows cursor movement  
+- Subtle idle floating animation for a cinematic feel  
+- Clean light-theme background with modern UI styling  
+- Reflection effect for added depth and realism  
+- Transform-based animations for better performance  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ 🛠 Tech Stack
 
-## Deploy on Vercel
+- Next.js (App Router)
+- React.js
+- GSAP (ScrollTrigger)
+- Tailwind CSS
+- JavaScript
+- HTML & CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📁 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+car-scroll-animation/
+├── app/
+│ ├── globals.css
+│ ├── layout.js
+│ └── page.tsx
+├── components/
+│ ├── Hero.jsx
+│ └── Stats.jsx
+├── public/
+│ └── images/
+│ └── hero.png
+├── package.json
+└── README.md
+
+🧩 How It Works
+
+ Initial Load Animation
+- Headline and statistics animate smoothly when the page loads.
+- Animations use easing and staggered timing for a premium feel.
+Scroll-Based Animation
+- The hero visual responds directly to the user’s scroll position.
+- Motion is scrubbed to scroll progress using GSAP ScrollTrigger.
+- Only transform properties (translate, scale, rotate) are used for performance.
+User Interaction
+- Mouse movement applies a subtle tilt to the hero visual.
+- A light sweep follows the cursor to add depth and interactivity.
+- Animations are responsive and feel fluid without being distracting.
+
