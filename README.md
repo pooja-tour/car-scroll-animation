@@ -6,7 +6,7 @@ This project was built as part of a frontend assignment to showcase understandin
 
 🚀Live Demo
 
-🔗 https://your-project.vercel.app  
+🔗 https://car-scroll-animation-xi.vercel.app/ 
 🔗 https://github.com/pooja-tour/car-scroll-animation
 
 🎯Project Objective
